@@ -1,20 +1,32 @@
 <template>
   <div id="app">
-    <h1>Desafío - Clase 6</h1>
-    <Counter msg="Contador"/>
-    <Table msg="Tabla"/>
+    <h1>1ra Preentrega</h1>
+    <!-- <Counter msg="Contador"/>
+    <Table msg="Tabla"/> -->
+    <Login/>
+    <Gallery/>
+    <Product/>
+    <Cart/>
   </div>
 </template>
 
 <script>
-import Counter from './components/Counter.vue'
-import Table from './components/Table.vue'
+// import Counter from './components/Counter.vue'
+// import Table from './components/Table.vue'
+import Login from './components/Login.vue'
+import Gallery from './components/Gallery.vue'
+import Product from './components/Product.vue'
+import Cart from './components/Cart.vue'
 
 export default {
   name: 'App',
   components: {
-    Counter,
-    Table,
+    // Counter,
+    // Table,
+    Login,
+    Gallery,
+    Product,
+    Cart,
   },
 }
 </script>
